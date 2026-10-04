@@ -12,6 +12,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        sans: ['"Inter"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         ibm: ['"IBM Plex Sans Arabic"', 'sans-serif'],
         readex: ['"Readex Pro"', 'sans-serif'],
         almarai: ['"Almarai"', 'sans-serif'],

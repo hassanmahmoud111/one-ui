@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-[#F9F6F0] font-ibm text-gray-800 pt-28 pb-16 px-6 md:px-12" dir="rtl">
+  <div class="min-h-screen bg-[#F9F6F0] text-gray-800 pt-28 pb-16 px-6 md:px-12" :dir="locale === 'ar' ? 'rtl' : 'ltr'" :class="locale === 'ar' ? 'font-ibm' : 'font-sans'">
     <div class="max-w-7xl mx-auto">
       <div class="text-center mb-12">
         <span class="text-[#D4A017] font-bold text-sm tracking-widest uppercase mb-2 block">برنامج التسويق بالعمولة</span>
